@@ -50,6 +50,9 @@ section {
 
 .first-comment {
 	background-color: #7541c8;
+	background-image: url('../images/bg-pattern-quotation.svg');
+	background-repeat: no-repeat;
+	background-position: top right;
 }
 
 .second-comment {
@@ -125,7 +128,7 @@ section {
 	color: #3e52a3;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
 	body {
 		background-color: lightblue;
 	}
@@ -145,6 +148,7 @@ section {
 	}
 	.first-comment {
 		grid-area: first-comment;
+		background-position: 80% 5%;
 	}
 
 	.second-comment {
